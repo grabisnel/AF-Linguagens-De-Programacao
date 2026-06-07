@@ -1,0 +1,28 @@
+/* Projeto AF-LP — Livraria Reverie
+    Gabriel Nunes Rodrigues — RA: 210201
+    Maria Eduarda Fernandes Filhik — RA: 251318 
+*/
+
+:root {
+    /*Cores da Id visual*/
+    --bg-light: #fcf6ed;
+    --bg-dark: #0c1618;
+    --accent-primary: #004643;
+    --accent-secondary: #92c9b1;
+    --text-dark: #0c1618;
+    --text-light: #fcf6ed;
+    --font-title: 'Merriweather', serif;
+    --font-body: 'Inter', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--bg-light);
+    color: var(--text-dark);
+    font-family: var(--font-body);
+}
