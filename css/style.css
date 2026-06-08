@@ -26,3 +26,118 @@ body {
     color: var(--text-dark);
     font-family: var(--font-body);
 }
+
+.navbar {
+    background-color: var(--accent-primary) !important;
+}
+
+.navbar-brand {
+    font-family: var(--font-titulo);
+    font-size: 1.5rem;
+    color : var(--text-light) !important;
+    letter-spacing: 2px;
+}
+
+.navbar-nav .nav-link {
+    color: var(--accent-secondary) !important;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: var(--text-light) !important;
+}
+
+#button-tema {
+    background-color: transparent;
+    border: 1px solid var(--accent-secondary);
+    color: var(--accent-secondary);
+    padding: 4px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.85rem;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+#button-tema:hover {
+    background-color: var(--accent-secondary);
+    color: var(--accent-primary);
+}
+
+.carrossel-secao .carousel-item img {
+    height: 480px;
+    object-fit: cover;
+}
+
+.titulo-secao {
+    font-family: var(--font-titulo);
+    font-size: 1.5rem;
+    color: var(--accent-primary);
+}
+
+.card-livro {
+    border: none;
+    overflow: hidden;
+    border-radius: 8px;
+    transition: transform 0.2s, box-shadow 0.2s;
+    background-color: #fff;
+}
+
+.card-livro:hover {
+    transform: scale(1.03);
+    box-shadow: 0 8px 24px rgba(0, 70, 67, 0.15);
+}
+
+.card-livro .card-img-top {
+    height: 280px;
+    object-fit: cover;
+}
+
+.card-livro .card-title {
+    font-family: var(--font-title);
+    font-size: 1rem;
+}
+
+.btn-primary {
+    background-color: var(--accent-primary);
+    border-color: var(--accent-primary);
+}
+
+.btn-primary:hover {
+    background-color: var(--accent-secondary);
+    border-color: var(--accent-secondary);
+    color: var(--accent-primary);
+}
+
+.secao-redirects {
+    border-top: 1px solid #e0d8cc;
+}
+
+footer {
+    background-color: var(--accent-primary);
+    color: var(--text-light);
+    padding: 1.5rem;
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer small {
+    font-size: 0.8rem;
+    opacity: 0.8;
+}
+
+
+
+@media (max-width: 576px) {
+    .chamada-item {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    footer {
+        flex-direction: column;
+        text-align: center;
+    }
+}
