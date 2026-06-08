@@ -129,6 +129,40 @@ footer small {
 }
 
 
+.form-control:focus {
+    border-color: var(--accent-secondary);
+    box-shadow: 0 0 0 0.2rem rgba(146, 201, 177, 0.25);
+}
+
+.informacoes-contato {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.informacoes-contato p {
+    margin: 0;
+}
+
+.mapa-container iframe {
+    border-radius: 8px;
+}
+
+.social-links {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.social-links a {
+    color: var(--accent-primary);
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.2s;
+}
+
+.social-links a:hover {
+    color: var(--accent-secondary);
+}
 
 @media (max-width: 576px) {
     .chamada-item {
